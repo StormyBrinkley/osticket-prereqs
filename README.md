@@ -31,6 +31,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 <p>
   Setting up osTicket on a Windows Virtual Machine:
+
+**Create an Azure Virtual Machine Windows 10, 4 vCPUs**
+Name: Vm-osticket
+Username: labuser (example)
+Password: osTicketPassword1! (example)
+
 </p>
 
 <p>
@@ -52,8 +58,11 @@ Set Up PHP: Create a directory C:\PHP, download PHP 7.3.8, and unzip it into C:\
 </p>
 <p>
 Step 2: Install and Configure Components
+  
 Additional Tools: Download and install PHP Manager for IIS and the URL Rewrite Module.
+
 Install MySQL: Download and install MySQL, using "Password1" as the root password.
+
 Configure IIS for PHP: Open IIS, register PHP, and restart the IIS server.
 </p>
 <br />
@@ -63,9 +72,15 @@ Configure IIS for PHP: Open IIS, register PHP, and restart the IIS server.
 </p>
 <p>
 Step 3: Set Up osTicket
+  
 Install osTicket: Download osTicket, move the "upload" folder to c:\inetpub\wwwroot, and rename it to "osTicket".
+
 Enable PHP Extensions: In IIS, enable the extensions php_imap.dll, php_intl.dll, and php_opcache.dll.
-Finalize Setup: Rename the ost-sampleconfig.php file, set permissions, and follow the browser setup to complete the osTicket installation. Create a database in HeidiSQL, then finish the setup with MySQL details. Finally, clean up and secure your installation.
+
+Finalize Setup: Rename the ost-sampleconfig.php file, set permissions, and follow the browser setup to complete the osTicket installation. 
+
+Create a database in HeidiSQL, then finish the setup with MySQL details. 
+
 </p>
 <br />
 
