@@ -38,8 +38,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 Step 1: Create and Prepare Your Virtual Machine
-Create the VM: Set up a Windows 10 Virtual Machine on Azure, name it "Vm-osticket," and use a username like "labuser" and a password like "osTicketPassword1!".
+  
+Create the VM: Set up a Windows 10 Virtual Machine on Azure, choose name, username like "labuser" and a password like "osTicketPassword1!".
+  
 Install IIS: Open Windows Features and install Internet Information Services (IIS) with CGI and Common HTTP Features, and the IIS Management Console.
+
 Set Up PHP: Create a directory C:\PHP, download PHP 7.3.8, and unzip it into C:\PHP.
 </p>
 <br />
