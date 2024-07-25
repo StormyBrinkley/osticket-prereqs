@@ -29,12 +29,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 5
 
 <h2>Installation Steps</h2>
+<p>
+  Setting up osTicket on a Windows Virtual Machine:
+</p>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 1: Create and Prepare Your Virtual Machine
+Create the VM: Set up a Windows 10 Virtual Machine on Azure, name it "Vm-osticket," and use a username like "labuser" and a password like "osTicketPassword1!".
+Install IIS: Open Windows Features and install Internet Information Services (IIS) with CGI and Common HTTP Features, and the IIS Management Console.
+Set Up PHP: Create a directory C:\PHP, download PHP 7.3.8, and unzip it into C:\PHP.
 </p>
 <br />
 
@@ -42,7 +48,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 2: Install and Configure Components
+Additional Tools: Download and install PHP Manager for IIS and the URL Rewrite Module.
+Install MySQL: Download and install MySQL, using "Password1" as the root password.
+Configure IIS for PHP: Open IIS, register PHP, and restart the IIS server.
 </p>
 <br />
 
@@ -50,6 +59,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 3: Set Up osTicket
+Install osTicket: Download osTicket, move the "upload" folder to c:\inetpub\wwwroot, and rename it to "osTicket".
+Enable PHP Extensions: In IIS, enable the extensions php_imap.dll, php_intl.dll, and php_opcache.dll.
+Finalize Setup: Rename the ost-sampleconfig.php file, set permissions, and follow the browser setup to complete the osTicket installation. Create a database in HeidiSQL, then finish the setup with MySQL details. Finally, clean up and secure your installation.
 </p>
-<br /># osticket-prereqs
+<br />
+
+
