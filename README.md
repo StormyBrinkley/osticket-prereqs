@@ -71,6 +71,9 @@ Configure IIS for PHP: Open IIS, register PHP, and restart the IIS server.
 <img src="https://i.imgur.com/welO5oY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<img src="https://i.imgur.com/F5Ds9Uo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 <h3>Step 3: Set Up osTicket</h3>
   
 Install osTicket: Download osTicket, move the "upload" folder to c:\inetpub\wwwroot, and rename it to "osTicket".
