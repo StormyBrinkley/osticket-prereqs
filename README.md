@@ -40,10 +40,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/Yc2IFma" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 1: Create and Prepare Your Virtual Machine</h2>
+<h3>Step 1: Create and Prepare Your Virtual Machine</h3>
   
 Create the VM: Set up a Windows 10 Virtual Machine on Azure, choose name, username like "labuser" and a password like "osTicketPassword1!".
   
@@ -57,7 +57,7 @@ Set Up PHP: Create a directory C:\PHP, download PHP 7.3.8, and unzip it into C:\
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 2: Install and Configure Components</h2>
+<h3>Step 2: Install and Configure Components</h3>
   
 Additional Tools: Download and install PHP Manager for IIS and the URL Rewrite Module.
 
@@ -71,7 +71,7 @@ Configure IIS for PHP: Open IIS, register PHP, and restart the IIS server.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 3: Set Up osTicket</h2>
+<h3>Step 3: Set Up osTicket</h3>
   
 Install osTicket: Download osTicket, move the "upload" folder to c:\inetpub\wwwroot, and rename it to "osTicket".
 
