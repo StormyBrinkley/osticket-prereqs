@@ -33,9 +33,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   Setting up osTicket on a Windows Virtual Machine:
 
 **Create an Azure Virtual Machine Windows 10, 4 vCPUs**
-Name: Vm-osticket
-Username: labuser (example)
-Password: osTicketPassword1! (example)
+- Name: Vm-osticket
+- Username: labuser (example)
+- Password: osTicketPassword1! (example)
 
 </p>
 
@@ -43,7 +43,7 @@ Password: osTicketPassword1! (example)
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1: Create and Prepare Your Virtual Machine
+**Step 1: Create and Prepare Your Virtual Machine**
   
 Create the VM: Set up a Windows 10 Virtual Machine on Azure, choose name, username like "labuser" and a password like "osTicketPassword1!".
   
@@ -57,7 +57,7 @@ Set Up PHP: Create a directory C:\PHP, download PHP 7.3.8, and unzip it into C:\
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2: Install and Configure Components
+**Step 2: Install and Configure Components**
   
 Additional Tools: Download and install PHP Manager for IIS and the URL Rewrite Module.
 
@@ -71,7 +71,7 @@ Configure IIS for PHP: Open IIS, register PHP, and restart the IIS server.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 3: Set Up osTicket
+**Step 3: Set Up osTicket**
   
 Install osTicket: Download osTicket, move the "upload" folder to c:\inetpub\wwwroot, and rename it to "osTicket".
 
