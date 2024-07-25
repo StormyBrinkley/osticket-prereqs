@@ -54,7 +54,7 @@ Set Up PHP: Create a directory C:\PHP, download PHP 7.3.8, and unzip it into C:\
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Lo3tO6U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <h3>Step 2: Install and Configure Components</h3>
