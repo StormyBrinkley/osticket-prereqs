@@ -87,6 +87,15 @@ Finalize Setup: Rename the ost-sampleconfig.php file, set permissions, and follo
 
 Create a database in HeidiSQL, then finish the setup with MySQL details. 
 
+<p>
+<img src="https://i.imgur.com/SarSvyz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
 </p>
 <br />
 
