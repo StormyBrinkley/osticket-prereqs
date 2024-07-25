@@ -73,9 +73,7 @@ Configure IIS for PHP: Open IIS, register PHP, and restart the IIS server.
 <p>
 <img src="https://i.imgur.com/welO5oY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-<img src="https://i.imgur.com/F5Ds9Uo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 <h3>Step 3: Set Up osTicket</h3>
   
@@ -90,9 +88,11 @@ Create a database in HeidiSQL, then finish the setup with MySQL details.
 <p>
 <img src="https://i.imgur.com/SarSvyz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/F5Ds9Uo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/M7LorD9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 
