@@ -85,17 +85,17 @@ Finalize Setup: Rename the ost-sampleconfig.php file, set permissions, and follo
 Create a database in HeidiSQL, then finish the setup with MySQL details. 
 
 <p>
-<img src="https://i.imgur.com/SarSvyz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SarSvyz.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/F5Ds9Uo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/F5Ds9Uo.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Congrats! You have now successfully installed and setup osTicket!
 </p>
 <p>
-<img src="https://i.imgur.com/sfVqSY0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sfVqSY0.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 
 </p>
