@@ -54,7 +54,7 @@ Set Up PHP: Create a directory C:\PHP, download PHP 7.3.8, and unzip it into C:\
 <br />
 
 <p>
-<img src="https://i.imgur.com/welO5oY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <h3>Step 2: Install and Configure Components</h3>
@@ -68,7 +68,7 @@ Configure IIS for PHP: Open IIS, register PHP, and restart the IIS server.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/welO5oY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <h3>Step 3: Set Up osTicket</h3>
