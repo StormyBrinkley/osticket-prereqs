@@ -97,10 +97,6 @@ Congrats! You have now successfully installed and setup osTicket!
 <p>
 <img src="https://i.imgur.com/sfVqSY0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-<img src="https://i.imgur.com/M7LorD9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
 
 </p>
 <br />
