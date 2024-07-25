@@ -36,11 +36,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Name: Vm-osticket
 - Username: labuser (example)
 - Password: osTicketPassword1! (example)
-
+- If you are using MacOS then your need to install Microsoft Remote Desktop (MRD)
 </p>
 
 <p>
-<img src="https://imgur.com/a/Yc2IFma" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/j9Y1wZd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
 </p>
 <p>
 <h3>Step 1: Create and Prepare Your Virtual Machine</h3>
