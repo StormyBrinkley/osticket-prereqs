@@ -57,6 +57,9 @@ Set Up PHP: Create a directory C:\PHP, download PHP 7.3.8, and unzip it into C:\
 <img src="https://i.imgur.com/Lo3tO6U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<img src="https://i.imgur.com/BKoa31J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 <h3>Step 2: Install and Configure Components</h3>
   
 Additional Tools: Download and install PHP Manager for IIS and the URL Rewrite Module.
