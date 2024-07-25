@@ -33,6 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   Setting up osTicket on a Windows Virtual Machine:
 
 **Create an Azure Virtual Machine Windows 10, 4 vCPUs**
+Create the VM: Set-up a Windows 10 Virtual Machine on Azure, choose name, username, and password.
 - Name: Vm-osticket
 - Username: labuser (example)
 - Password: osTicketPassword1! (example)
@@ -45,8 +46,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 <h3>Step 1: Create and Prepare Your Virtual Machine</h3>
-  
-Create the VM: Set up a Windows 10 Virtual Machine on Azure, choose name, username like "labuser" and a password like "osTicketPassword1!".
   
 Install IIS: Open Windows Features and install Internet Information Services (IIS) with CGI and Common HTTP Features, and the IIS Management Console.
 
